@@ -1,0 +1,30 @@
+# IDE / 编辑器
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 环境变量与密钥（防止误提交）
+.env
+.env.*
+*.pem
+*.key
+!*.example
+
+# 运行时生成
+*.log
+logs/
+md5.text
+
+# 向量数据库本地缓存
+chroma_db/
+
+# 操作系统
+.DS_Store
+Thumbs.db
